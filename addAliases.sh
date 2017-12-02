@@ -10,6 +10,6 @@ read -p "Use : " useCommand
 read -p "For : " forCommand
 
 echo "alias $useCommand=\"$forCommand\"" >> ~/bash/.bash_aliases
-echo "updateAlias $useCommand $forCommand"
+echo "`/bin/bash ./update.sh $useCommand $forCommand`"
 source ~/.bashrc
 
