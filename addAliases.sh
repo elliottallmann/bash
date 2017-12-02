@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "`/bin/bash ./update.sh`"
+echo "`/bin/bash ./update.sh &> /dev/null`"
 echo "First, enter the command you want to use as the alias."
 echo "Then, enter the command you want that to reference."
 echo "Example: 
